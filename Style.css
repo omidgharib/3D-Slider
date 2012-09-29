@@ -45,7 +45,7 @@ div.frame2{
 div.frame3{
 	width: 200px;
 	min-height: 150px;
-	-webkit-transform: rotateY(90deg) scale(0.75) translateY(26px) translateX(-80px);
+	-webkit-transform: rotateY(90deg) scale(0.75) translateY(25px) translateX(-80px);
 	margin-left: -163px;
 }
 
