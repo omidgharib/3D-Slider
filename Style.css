@@ -6,6 +6,9 @@ div.container{
 }
 
 div.slider{
+	position:relative;
+	width: 200px;
+	min-height: 150px;
 }
 
 menu li{
@@ -23,30 +26,29 @@ menu li:hover{
 }
 
 div.frame{
-	position: relative;
-	margin: 100px auto 0;
+	position: absolute;
 	line-height: 100px;
 	text-align: center;
 	font-size: 50px;
 	font-weight: bold;
+	-webkit-transform-style: preserve-3d;
 }
 
 div.frame1{
 	width: 200px;
 	min-height: 150px;
+	-webkit-transform: rotateY(0deg) translateZ(320px);
 }
 
-div.frame2{
-	width: 200px;
+div.frame2{ 
 	min-height: 150px;
-	-webkit-transform: rotateY(45deg) scale(0.9) translateY(9px) translateX(-40px);
+	-webkit-transform: rotateY(45deg) translateZ(320px);
 }
 
 div.frame3{
 	width: 200px;
 	min-height: 150px;
-	-webkit-transform: rotateY(90deg) scale(0.75) translateY(25px) translateX(-80px);
-	margin-left: -163px;
+	-webkit-transform: rotateY(90deg) translateZ(320px);
 }
 
 div.frame div.frontface,
