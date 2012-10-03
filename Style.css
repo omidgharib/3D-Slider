@@ -9,6 +9,8 @@ div.slider{
 	position:relative;
 	width: 200px;
 	min-height: 150px;
+	top: 0;
+	left:0;
 	-webkit-transform-style: preserve-3d;
 }
 
