@@ -7,12 +7,12 @@ div.container{
 }
 
 div.slider{
-	position:relative;
 	width: 200px;
 	min-height: 150px;
-	top: 0;
-	left:0;
+	position:relative;
 	-webkit-transform-style: preserve-3d;
+	-webkit-transition: all 900ms; 
+	-webkit-transform: rotateX(-3deg)
 }
 
 menu li{
@@ -44,6 +44,10 @@ div.frame{
 div.frame1{
 	-webkit-transform: rotateY(0deg) translateZ(300px);
 }
+
+/*div.focus-frame1{
+	-webkit-transform: rotateY(-45deg) ;
+}*/
 
 div.frame2{ 
 	-webkit-transform: rotateY(45deg) translateZ(300px);
