@@ -13,6 +13,7 @@ div.slider{
 	top: 0;
 	left:0;
 	-webkit-transform-style: preserve-3d;
+	-webkit-transition: all 900ms; 
 }
 
 menu li{
