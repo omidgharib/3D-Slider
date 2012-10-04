@@ -3,6 +3,7 @@ div.container{
 	min-height: 500px;
 	margin: 50px auto 0;
 	-webkit-perspective:1000px;
+
 }
 
 div.slider{
@@ -15,9 +16,10 @@ div.slider{
 }
 
 menu li{
-	width: 20px;
-	height: 10px;
-	border-radius: 3px;
+	width: 30px;
+	height: 20px;
+	cursor: pointer;
+	border-radius: 5px;
 	background-color: #333;
 	float: left;
 	margin-left: 10px;
@@ -25,7 +27,7 @@ menu li{
 
 menu li:hover{
 	background-color: darkcyan;
-	border-radius: 6px;
+	border-radius: 20px;
 }
 
 div.frame{
