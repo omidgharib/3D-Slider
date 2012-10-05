@@ -45,10 +45,6 @@ div.frame1{
 	-webkit-transform: rotateY(0deg) translateZ(300px);
 }
 
-/*div.focus-frame1{
-	-webkit-transform: rotateY(-45deg) ;
-}*/
-
 div.frame2{ 
 	-webkit-transform: rotateY(45deg) translateZ(300px);
 }
